@@ -2,10 +2,6 @@
 
 A production-grade Persian news platform built with **Next.js 15**, **TypeScript**, and **Tailwind CSS v4**. Fully RTL, dark mode ready, with a complete admin panel.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=flat-square&logo=vercel)](https://github.com/MiladJoodi/Tariboon-News)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Milad%20Joodi-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/joodi/)
-[![GitHub](https://img.shields.io/badge/GitHub-MiladJoodi-181717?style=flat-square&logo=github)](https://github.com/MiladJoodi)
-
 ---
 
 ## Overview
