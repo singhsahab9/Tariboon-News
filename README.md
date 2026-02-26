@@ -10,6 +10,17 @@ Tariboon (تریبون) is a fully-featured Persian news portal with 50 articles
 
 ---
 
+### Pictures:
+![](pictures/01.png)
+![](pictures/02.png)
+![](pictures/03.png)
+![](pictures/04.png)
+![](pictures/05.png)
+![](pictures/06.png)
+![](pictures/07.png)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
