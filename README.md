@@ -1,6 +1,6 @@
 # تریبون — Tariboon News Portal
 
-A production-grade Persian news platform built with **Next.js 15**, **TypeScript**, and **Tailwind CSS v4**. Fully RTL, dark mode ready, with a complete admin panel.
+A production-grade Persian news platform built with **Next.js 16**, **TypeScript**, and **Tailwind CSS v4**. Fully RTL, dark mode ready, with a complete admin panel.
 
 ---
 
